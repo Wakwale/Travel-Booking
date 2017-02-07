@@ -1,0 +1,11 @@
+The Folder Contains the Frontend in thew folder Views.
+
+The Views are in no particular order.
+However open Home-Page to  choose the starting point of the flow of different users.
+
+
+1. Head of Unit -> Login-> ViewReport-> Accept->StaffLogin/ Reject-> AdminLogin
+
+2..Staff -> Login -> ProcessReport-> Submit-> back to Home Page.
+
+The functionalities are not dealt with since the question insisted on no communication to database.

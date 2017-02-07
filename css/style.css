@@ -1,0 +1,279 @@
+
+.icon {
+    height: 220px;
+    max-width: 200px;
+    margin: 20px 0px 0px 250px;
+}
+
+core-toolbar {
+    background-color: white;
+    color: white;
+}
+
+/*.content {
+margin: -90px;    
+}*/
+#Buttonpan{
+    margin:0px 0px 2px 0px;
+}
+.email-input {
+    margin-left: 380px;
+    margin-top: 0px;
+    font-color:black;
+}
+
+.password {
+    margin-left: 380px;
+    margin-top: -10px;
+}
+.signin-button {
+    
+    color:#FFA000 ;
+}
+
+.btn btn-success{
+    margin:auto;
+    color: white;
+    background-color: #FFA000;
+    text-align: center;
+
+}
+.sign-up {
+    margin-left: 200px;
+    margin-right: -100px;
+    background-color: #1e88e5;
+    color: white;
+}
+
+#login-space {
+     margin-bottom:-200px;
+    margin-left: 90px
+}
+#logimage{
+    margin-top:-20px;
+}
+#adlogimage{
+    margin-top:40px;
+}
+.Login {
+
+    margin:0px,0px,0px,10px;
+    color: white;
+    background-color: #FFA000;
+    text-align: center;
+}
+
+.Registration
+      {
+        margin: 60px;
+      }
+.logo {
+    height: 50px;
+    width: 100px;
+}
+
+.register {
+     margin-top: 10px;
+     color: white;
+    background-color: #0d47a1;
+}
+
+.checkout {
+     color: white;
+    background-color: #0d47a1;
+    margin-bottom: 10px;
+}
+
+.order {
+    color: white;
+    background-color: #0d47a1;
+}
+
+
+.items2 {
+   height: 300px;
+    max-width: 300px;
+    margin-bottom: 90px;
+    padding-bottom: 90px;
+}
+
+
+.items3 {
+max-height: 450px;
+max-width: 200px;
+margin-bottom: -70px;
+}
+
+.items4 {
+    max-height: 200px;
+    max-width: 300px;
+    margin-bottom: -90px;
+}
+
+.signup {
+    margin:70px 0px 0px 460px;
+    padding: -20px 0px -5px 0px;
+    color: white;
+    background-color: #FFC400;
+    float:left;
+}
+
+.smallbutton {
+    color: #303f9f;
+}
+
+
+.items1 {
+    max-height: 200px;
+    max-width: 300px;
+    margin-bottom: -20px;
+}
+
+.items5 {
+max-height: 200px;
+max-width: 150px;
+margin-bottom: -80px;
+}
+
+.items6 {
+max-height:200px;
+max-width: 200px;
+margin-bottom: -70px;
+}
+
+
+
+.Create{
+    
+}
+
+.Createaccount {
+    
+
+}
+
+
+.tall {
+    height:inherit;
+}
+
+.H5; {
+    
+    color: white;
+    background-color: #FFA000;
+    text-align: center;
+    
+    
+    
+}
+
+#space {
+    margin-top: 30px;
+}
+#btnstyle{
+    color: white;
+    background-color: #FFA000;
+    text-align: center;
+
+}
+
+.header{
+    color:black;
+}
+.users {
+    margin-top: 40px;
+    height: 50px;
+    width: 100px;
+    
+}
+
+.foot {
+    color: black;
+    text-align: center;
+    margin-bottom:20px;
+  
+}
+
+.background {
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 100px;
+}
+
+.card-image{
+
+    margin-bottom: 600px;
+}
+.admin_login{
+    margin:auto;
+    color: white;
+    background-color: #FFA000;
+    text-align: center;
+}
+
+.Customers{
+    margin:auto;
+    color: white;
+    background-color: #FFA000;
+    text-align: center;
+
+}
+.Inventory{
+    margin:auto;
+    color: white;
+    background-color: #FFA000;
+    text-align: center;
+
+}
+.WarehouseSales{
+    margin:auto;
+    color: white;
+    background-color: #FFA000;
+    text-align: center;
+
+}
+#Cardcolor{
+    background-color: #00E676;
+}
+#input-style {
+    left: 40%;
+    transform: translate(-25%, 25%);
+}
+
+.input {
+    color: black;
+}
+
+.topic {
+    color:black;
+    margin: auto 0;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.card-position {
+    margin-bottom: 10%;
+}
+
+.button-position {
+   top: 20px;
+}
+
+
+
+
+#card-space {
+    height:  200px;
+}
+
+
+
+.card-position-form {
+    height: 20%;
+}
+
+.card-position-form2 {
+    padding: 20px;
+}

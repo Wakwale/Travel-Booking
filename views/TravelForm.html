@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Travel Form</title>
+
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+
+     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+
+    <!-- 1. Load webcomponents.min.js for polyfill support. -->
+      <link rel="import" href="../bower_components/core-overlay/core-overlay.html">
+      <link rel="import" href="../bower_components/core-toolbar/core-toolbar.html">
+      <link rel="import" href ="../bower_components/core-header-panel/core-header-panel.html">
+      <link rel="import" href="../bower_components/paper-button/paper-button.html">
+        <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+
+</head>
+
+
+<style>
+            body{
+                background-color: #D7CCC8;
+                color: white;
+            }
+        </style>
+    <body fullbleed vertical layout unresolved>
+             <core-header-panel flex>
+                <core-toolbar class = "tall">
+                <!--<img class = "logo" src="../images/logo.png">-->
+                <h5 class="topic">Travel Form</h5>
+          </core-toolbar>
+           </core-header-panel>
+               
+              <div class = "container" id = "space" >
+                      
+                       <div class = "card-position-form">
+                               <div class = "card large">
+                                   
+                                    <h5 class="topic">Travel Form</h5> 
+                                   
+                                   <div class="row">
+                                       
+                                        <form class="col s12">
+                                            
+                                          <div class="row">
+                                              
+                                            <div class="input-field col s6">
+                                              <input id="travel_date" type="text" class="input">
+                                              <label for="travel_date">Travel Date</label>
+                                            </div>
+                                              
+                                            <div class="input-field col s6">
+                                              <input id="budget" type="text" class="input">
+                                              <label for="budget">Budget</label>
+                                            </div>
+                                          </div>
+                                            
+                                          <div class="row">
+                                            <div class="input-field col s6">
+                                              <input id="project" type="text" class="input">
+                                              <label for="project">Project</label>
+                                            </div>
+                                            
+                                            <div class="input-field col s6">
+                                              <input id="grade" type="text" class="input">
+                                              <label for="grade">Grade</label>
+                                            </div>
+                                              
+                                          </div>
+                                            
+                                          <div class="row">
+                                            <div class="input-field col s12">
+                                              <input id="justification" type="text" class="input">
+                                              <label for="justification">Justification</label>
+                                            </div>
+                                              
+                                          </div>
+
+                                        </form>
+                                       
+                                          <!-- Modal Trigger -->
+                                       <button class="waves-effect waves-light btn modal-trigger links" href="#modal2" data-target="modal2">SUBMIT</button>
+
+                                          <!-- Modal Structure -->
+                                          <div id="modal2" class="modal">
+                                            <div class="modal-content">
+                                              <h4 class="input">Your form has been submitted</h4>
+                                                <h4 class="input">Would you like to proceed?</h4>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <a href="../views/Home-Page.html" class=" modal-action modal-close waves-effect waves-green btn-flat">Yes</a>
+                                                
+                                              <a href="../views/StaffLogin.html" class=" modal-action modal-close waves-effect waves-green btn-flat">No</a>
+                                            </div>
+                                          </div>
+                                       
+                                      </div>
+                                   
+                                
+                                   
+                                                  
+                                  </div>
+                                    
+                                  
+                               </div>
+                                   
+                                    
+                                                  
+                                  </div>
+                                    
+                                  
+                               </div>
+                       </div>
+
+                        <footer>
+                            
+                        <div class = "foot">&copy Copyright 2017</div>
+        </footer>
+                       
+              
+    </body>
+    <!--jquery-->
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    
+
+    <!--materialize js-->
+    <script src="../js/materialize.min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+                $('.modal-trigger' ).leanModal();
+        })
+    </script>
+    
+  </html>
